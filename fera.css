@@ -23,9 +23,14 @@ header{
 header h2{
     font-weight: 500;
 }
+.imagem{
+    width: 50%;
+    height: auto;
+    margin: 10px 5px 15px 20px;
+}
 main{
     grid-area: content;
-    height: 38rem;
+    height: 100%;
 }
 .texto{
     justify-self: center;
