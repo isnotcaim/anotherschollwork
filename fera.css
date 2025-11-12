@@ -95,7 +95,7 @@ h3{
     background: linear-gradient(135deg, #ffd000, #ffea76);
     border-radius: 19px;
 }
-.primeiro{
+#primeiro{
     grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -103,7 +103,7 @@ h3{
     border-radius: 5px;
     margin: 10px 5px;
 }
-.segundo{
+#segundo{
     grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -111,7 +111,7 @@ h3{
     border-radius: 5px;
     margin: 10px 5px;
 }
-.terceiro{
+#terceiro{
     grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -119,7 +119,7 @@ h3{
     border-radius: 5px;
     margin: 10px 5px;
 }
-.quarto{
+#quarto{
     grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,4 +140,25 @@ a{
 }
 a:hover{
     background-color: #ffeb33;
+}
+#overlations{
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    max-width: 290px;
+    width: 90%;
+}
+#sopro{
+    width: 100%;
+    display: block;
+    transition: transform 0.3s;
+}
+#veletions{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2100b38a;
 }
